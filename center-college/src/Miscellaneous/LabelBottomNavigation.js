@@ -11,6 +11,7 @@ const LabelBottomNavigation = () => {
     };
 
     return (
+        //Make this responsive, was pulled from other website Rob made
         <BottomNavigation
             sx={{
                 position: 'fixed',
