@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getDatabase, ref, get } from "firebase/database";
+import { ref, get } from "firebase/database";
 import { database } from "./Firebase";
 import '../StyleSheets/Login.css';
 
