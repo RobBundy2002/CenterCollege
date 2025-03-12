@@ -33,7 +33,7 @@ const LabelBottomNavigation = () => {
                 to="/"
                 sx={{
                     color: 'white',
-                    fontSize: '3rem',
+                    fontSize: '2rem',
                     fontWeight: 'bold',
                 }}
             />
@@ -44,7 +44,7 @@ const LabelBottomNavigation = () => {
                 to="/upcoming-events"
                 sx={{
                     color: 'white',
-                    fontSize: '3rem',
+                    fontSize: '2rem',
                     fontWeight: 'bold',
                 }}
             />
@@ -55,7 +55,7 @@ const LabelBottomNavigation = () => {
                 to="/sl-info"
                 sx={{
                     color: 'white',
-                    fontSize: '3rem',
+                    fontSize: '2rem',
                     fontWeight: 'bold',
                 }}
             />
@@ -66,7 +66,18 @@ const LabelBottomNavigation = () => {
                 to="/reading-plan"
                 sx={{
                     color: 'white',
-                    fontSize: '3rem',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                }}
+            />
+            <BottomNavigationAction
+                label="Community Group"
+                value="community-group"
+                component={Link}
+                to="/community-group"
+                sx={{
+                    color: 'white',
+                    fontSize: '2rem',
                     fontWeight: 'bold',
                 }}
             />
@@ -77,7 +88,7 @@ const LabelBottomNavigation = () => {
                 to="/about"
                 sx={{
                     color: 'white',
-                    fontSize: '3rem',
+                    fontSize: '2rem',
                     fontWeight: 'bold',
                 }}
             />

@@ -5,6 +5,7 @@ import ScrollToTop from "./Miscellaneous/ScrollToTop";
 import Footer from "./Miscellaneous/Footer";
 import Home from "./Tabs/Home";
 import LabelBottomNavigation from "./Miscellaneous/LabelBottomNavigation";
+import CommunityGroups from "./Tabs/Community Groups";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/community-group" element={<CommunityGroups />} />
             </Routes>
             <LabelBottomNavigation />
             <Footer />

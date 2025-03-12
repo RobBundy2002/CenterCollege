@@ -1,0 +1,91 @@
+import React, {useState} from 'react';
+import '../StyleSheets/CommunityGroups.css';
+
+const CommunityGroups = () => {
+    const groups = [
+        {
+            name: "Group 1: 1st Year Guys",
+            leaders: ["Rob Bundy, Austin Chappell, and Micah Shelton"],
+            image: "https://via.placeholder.com/150",
+            time: "Tuesdays at 8:00 PM",
+            phone: "(276) 791-5068"
+        },
+        {
+            name: "Group 2: 1st Year Guys ",
+            leaders: ["Ethan Stokey and Micaiah Lee"],
+            image: "https://via.placeholder.com/150",
+            time: "Tuesdays at 8:30 PM",
+            phone: "(512) 808-3603"
+        },
+        {
+            name: "Group 3: 2nd and 3rd Year Guys",
+            leaders: ["Grant Costello and Ethan Fouch"],
+            image: "https://via.placeholder.com/150",
+            time: "Mondays at 8:00 PM",
+            phone: "(804) 629-3160"
+        },
+        {
+            name: "Group 4: 2nd and 3rd Year Girls",
+            leaders: ["Sarah Lambert and Jackie Harkins"],
+            image: "https://via.placeholder.com/150",
+            time: "Tuesdays at 8:00 PM",
+            phone: "(804) 514-0139"
+        },
+        {
+            name: "Group 5: 1st Year Girls",
+            leaders: ["Adamary Maldonaldo and Anika Singh and Peyton Gergen"],
+            image: "https://via.placeholder.com/150",
+            time: "Who Even Knows",
+            phone: "(678) 927-3920"
+        },
+        {
+            name: "Group 6: 1st Year Girls",
+            leaders: ["Ashley Rommel and Gracie Williams"],
+            image: "https://via.placeholder.com/150",
+            time: "Tuesdays at 8:00 PM?",
+            phone: "(301) 278-2443"
+        },
+        {
+            name: "Group 7: 1st Year Girls",
+            leaders: ["Kaylyn Johnson and Julia Stiltner"],
+            image: "https://via.placeholder.com/150",
+            time: "Who Even Knows",
+            phone: "(434) 282-8606"
+        }
+    ];
+
+    return (
+        <div className="community-groups-container">
+            <h1>Interested in Joining a Community Group?</h1>
+            <div className="group-list">
+                {groups.map((group, index) => (
+                    <div key={index} className="group-card">
+                        <div className="group-header">
+                            <img src={group.image} alt={group.name} className="leader-image"/>
+                            <div className="leaders">
+                                <h2>{group.name}</h2>
+                                <p>Leaders: {group.leaders.map((leader, index) => (
+                                    index === group.leaders.length - 1
+                                        ? leader
+                                        : `${leader} & `
+                                )).join('')}</p>
+                            </div>
+                        </div>
+                        <div className="group-details">
+                            <p><strong>Meeting Time:</strong> {group.time}</p>
+                            <p><strong>Contact:</strong> {group.phone}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            <div className="community-group-description">
+                <h2>What is a Community Group?</h2>
+                <p>
+                    Community groups are small, informal gatherings of people who meet regularly (Get the Rest Later)
+                </p>
+            </div>
+        </div>
+    );
+};
+
+export default CommunityGroups;
