@@ -14,7 +14,7 @@ const CommunityGroups = () => {
             name: "Group 2: 1st Year Guys ",
             leaders: ["Ethan Stokey and Micaiah Lee"],
             image: "https://via.placeholder.com/150",
-            time: "Tuesdays at 8:30 PM",
+            time: "Tuesdays at 8:00 PM",
             phone: "(512) 808-3603"
         },
         {
@@ -28,12 +28,12 @@ const CommunityGroups = () => {
             name: "Group 4: 2nd and 3rd Year Girls",
             leaders: ["Sarah Lambert and Jackie Harkins"],
             image: "https://via.placeholder.com/150",
-            time: "Tuesdays at 8:00 PM",
+            time: "Tuesdays at 8:00 PM?",
             phone: "(804) 514-0139"
         },
         {
             name: "Group 5: 1st Year Girls",
-            leaders: ["Adamary Maldonaldo and Anika Singh and Peyton Gergen"],
+            leaders: ["Adamary Maldonaldo, Anika Singh, and Peyton Gergen"],
             image: "https://via.placeholder.com/150",
             time: "Who Even Knows",
             phone: "(678) 927-3920"
@@ -56,7 +56,7 @@ const CommunityGroups = () => {
 
     return (
         <div className="community-groups-container">
-            <h1>Interested in Joining a Community Group?</h1>
+            <h1>Interested in a Community Group?</h1>
             <div className="group-list">
                 {groups.map((group, index) => (
                     <div key={index} className="group-card">
@@ -64,8 +64,8 @@ const CommunityGroups = () => {
                             <img src={group.image} alt={group.name} className="leader-image"/>
                             <div className="leaders">
                                 <h2>{group.name}</h2>
-                                <p>Leaders: {group.leaders.map((leader, index) => (
-                                    index === group.leaders.length - 1
+                                <p>Leaders: {group.leaders.map((leader, idx) => (
+                                    idx === group.leaders.length - 1
                                         ? leader
                                         : `${leader} & `
                                 )).join('')}</p>
@@ -81,7 +81,7 @@ const CommunityGroups = () => {
             <div className="community-group-description">
                 <h2>What is a Community Group?</h2>
                 <p>
-                    Community groups are small, informal gatherings of people who meet regularly (Get the Rest Later)
+                    Community groups are small, informal gatherings of people (Update Later)
                 </p>
             </div>
         </div>
