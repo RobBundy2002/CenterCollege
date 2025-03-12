@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CenterCollege/static/css/main.28197d3f.css",
-    "main.js": "/CenterCollege/static/js/main.a35534fd.js",
+    "main.css": "/CenterCollege/static/css/main.d525f21a.css",
+    "main.js": "/CenterCollege/static/js/main.3965206b.js",
     "index.html": "/CenterCollege/index.html",
-    "main.28197d3f.css.map": "/CenterCollege/static/css/main.28197d3f.css.map",
-    "main.a35534fd.js.map": "/CenterCollege/static/js/main.a35534fd.js.map"
+    "main.d525f21a.css.map": "/CenterCollege/static/css/main.d525f21a.css.map",
+    "main.3965206b.js.map": "/CenterCollege/static/js/main.3965206b.js.map"
   },
   "entrypoints": [
-    "static/css/main.28197d3f.css",
-    "static/js/main.a35534fd.js"
+    "static/css/main.d525f21a.css",
+    "static/js/main.3965206b.js"
   ]
 }
