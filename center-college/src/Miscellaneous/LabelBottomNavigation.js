@@ -92,6 +92,17 @@ const LabelBottomNavigation = () => {
                     fontWeight: 'bold',
                 }}
             />
+            <BottomNavigationAction
+                label="Staff Team"
+                value="leaders"
+                component={Link}
+                to="/leaders"
+                sx={{
+                    color: 'white',
+                    fontSize: '2rem',
+                    fontWeight: 'bold',
+                }}
+            />
         </BottomNavigation>
     );
 };

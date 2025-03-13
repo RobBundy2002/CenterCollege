@@ -1,0 +1,99 @@
+.leaders-container {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.leaders-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.leaders-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.leader-card {
+    background-color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+.leader-card:hover {
+    transform: translateY(-5px);
+}
+
+.leader-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.leader-info {
+    padding: 10px;
+}
+
+.leader-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.leader-role {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.leader-description {
+    font-size: 1rem;
+    color: #777;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .leader-card {
+        width: 220px;
+        padding: 15px;
+    }
+
+    .leader-name {
+        font-size: 1.4rem;
+    }
+
+    .leader-role {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .leaders-title {
+        font-size: 2rem;
+    }
+
+    .leader-card {
+        width: 180px;
+        padding: 10px;
+    }
+
+    .leader-name {
+        font-size: 1.2rem;
+    }
+
+    .leader-role {
+        font-size: 0.9rem;
+    }
+}
