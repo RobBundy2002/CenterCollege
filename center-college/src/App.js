@@ -6,6 +6,7 @@ import Footer from "./Miscellaneous/Footer";
 import Home from "./Tabs/Home";
 import LabelBottomNavigation from "./Miscellaneous/LabelBottomNavigation";
 import CommunityGroups from "./Tabs/Community Groups";
+import UpcomingEvents from "./Tabs/UpcomingEvents";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/community-group" element={<CommunityGroups />} />
+                <Route path="/upcoming-events" element={<UpcomingEvents />} />
             </Routes>
             <LabelBottomNavigation />
             <Footer />
