@@ -54,6 +54,7 @@ body{
 }
 
 .welcome-text h1 {
+    color: white;
     font-size: 4rem;
     font-weight: 1700;
     margin-top: 20vh;

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../StyleSheets/CommunityGroups.css';
 
 const CommunityGroups = () => {
@@ -61,7 +61,7 @@ const CommunityGroups = () => {
                 {groups.map((group, index) => (
                     <div key={index} className="group-card">
                         <div className="group-header">
-                            <img src={group.image} alt={group.name} className="leader-image"/>
+                            <img src={group.image} alt={group.name} className="leader-image" />
                             <div className="leaders">
                                 <h2>{group.name}</h2>
                                 <p>Leaders: {group.leaders.map((leader, idx) => (
@@ -81,7 +81,7 @@ const CommunityGroups = () => {
             <div className="community-group-description">
                 <h2>What is a Community Group?</h2>
                 <p>
-                    Community groups are small, informal gatherings of people (Update Later)
+                    Community groups are small, informal gatherings of people where you can grow together, study, pray, and support one another.
                 </p>
             </div>
         </div>

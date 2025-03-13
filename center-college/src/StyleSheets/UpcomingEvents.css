@@ -17,7 +17,9 @@
 
 
 h2 {
-  color: #71a8db;
+  background: linear-gradient(135deg, #71a8db, #5688b5);
+  -webkit-background-clip: text;
+  color: transparent;
   text-align: center;
   font-size: 2.5rem;
   margin-top: 15vh;

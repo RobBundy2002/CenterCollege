@@ -7,9 +7,12 @@
 .leaders-title {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #333;
+    background: linear-gradient(135deg, #71a8db, #5688b5);
+    -webkit-background-clip: text;
+    color: transparent;
     margin-bottom: 40px;
 }
+
 
 .leaders-list {
     display: flex;
