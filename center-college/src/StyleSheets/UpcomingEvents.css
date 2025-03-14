@@ -1,0 +1,26 @@
+.iframe-container {
+  max-width: 100vh;
+  height: 80vh;
+  margin: 0 auto;
+  border: 1vh solid #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.iframe-container iframe{
+  width: 99.5%;
+  height: 99.5%;
+  border: .1rem solid #71a8db;
+  border-radius: 8px;
+  box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
+}
+
+
+h2 {
+  background: linear-gradient(135deg, #71a8db, #5688b5);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 15vh;
+}
