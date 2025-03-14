@@ -11,9 +11,10 @@ html, body {
     bottom: -106vh;
     width: 100%;
     z-index: 10;
+    border-top: .2vh solid black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     .footer {
         bottom: -433.5vh;
         width: 100%;

@@ -1,11 +1,10 @@
 import React from 'react';
 import '../StyleSheets/Leaders.css';
-import joseImage from './Jose Image.png';
-import erinImage from './Erin Image.png';
-import keatonImage from './Keaton Image.png';
-import mikeImage from './Mike Image.png';
-import livImage from './Liv Image.png';
-// Move these back into the public folder once you remember how
+import joseImage from '../Images/Jose Image.png';
+import erinImage from '../Images/Erin Image.png';
+import keatonImage from '../Images/Keaton Image.png';
+import mikeImage from '../Images/Mike Image.png';
+import livImage from '../Images/Liv Image.png';
 
 const Leaders = () => {
     return (

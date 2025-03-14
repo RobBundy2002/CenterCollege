@@ -1,5 +1,6 @@
 import React from 'react';
 import '../StyleSheets/CommunityGroups.css';
+import GrantAndFouchy from '../Images/GrantAndFouchy.jpeg';
 
 const CommunityGroups = () => {
     const groups = [
@@ -20,7 +21,7 @@ const CommunityGroups = () => {
         {
             name: "Group 3: 2nd and 3rd Year Guys",
             leaders: ["Grant Costello and Ethan Fouch"],
-            image: "https://via.placeholder.com/150",
+            image: GrantAndFouchy,
             time: "Mondays at 8:00 PM",
             phone: "(804) 629-3160"
         },
