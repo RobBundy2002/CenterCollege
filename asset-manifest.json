@@ -1,9 +1,14 @@
 {
   "files": {
-    "main.css": "/CenterCollege/static/css/main.d5bf35cc.css",
-    "main.js": "/CenterCollege/static/js/main.ac5f84a5.js",
+    "main.css": "/CenterCollege/static/css/main.2c1dae79.css",
+    "main.js": "/CenterCollege/static/js/main.d67c35a8.js",
+    "static/media/KaylynAndJulia.png": "/CenterCollege/static/media/KaylynAndJulia.46b62f6f4ddcd2860318.png",
+    "static/media/StokeyAndMicaiah.png": "/CenterCollege/static/media/StokeyAndMicaiah.9707d3b9c87a6a9028f7.png",
+    "static/media/SarahandJackie.png": "/CenterCollege/static/media/SarahandJackie.f3f9e4e45f7dafd09b30.png",
+    "static/media/AshleyAndGracie.png": "/CenterCollege/static/media/AshleyAndGracie.b45ee656f2905bb301be.png",
+    "static/media/AdamaryAndAnikaAndPeyton.png": "/CenterCollege/static/media/AdamaryAndAnikaAndPeyton.30de0bb3a99973a865c3.png",
     "static/media/HomeBackground.jpg": "/CenterCollege/static/media/HomeBackground.ca11e30d612e8e566b1f.jpg",
-    "static/media/GrantAndFouchy.jpeg": "/CenterCollege/static/media/GrantAndFouchy.471aaf254777bda1c3d7.jpeg",
+    "static/media/GrantAndFouchy.png": "/CenterCollege/static/media/GrantAndFouchy.e891a704b3601eeadae2.png",
     "static/media/Liv Image.png": "/CenterCollege/static/media/Liv Image.b115e45ca598442c52ae.png",
     "static/media/Mike Image.png": "/CenterCollege/static/media/Mike Image.e9c824611e655d552d95.png",
     "static/media/Keaton Image.png": "/CenterCollege/static/media/Keaton Image.51e7b176b8c16f9283cc.png",
@@ -11,11 +16,11 @@
     "static/media/Jose Image.png": "/CenterCollege/static/media/Jose Image.702ce552814396992213.png",
     "static/media/Logo.png": "/CenterCollege/static/media/Logo.f4773545fa55add4024d.png",
     "index.html": "/CenterCollege/index.html",
-    "main.d5bf35cc.css.map": "/CenterCollege/static/css/main.d5bf35cc.css.map",
-    "main.ac5f84a5.js.map": "/CenterCollege/static/js/main.ac5f84a5.js.map"
+    "main.2c1dae79.css.map": "/CenterCollege/static/css/main.2c1dae79.css.map",
+    "main.d67c35a8.js.map": "/CenterCollege/static/js/main.d67c35a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5bf35cc.css",
-    "static/js/main.ac5f84a5.js"
+    "static/css/main.2c1dae79.css",
+    "static/js/main.d67c35a8.js"
   ]
 }
