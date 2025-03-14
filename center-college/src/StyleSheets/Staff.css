@@ -1,0 +1,80 @@
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 10vw;
+    gap: 5vw;
+    background-color: #f4f9fc;
+    margin: 2rem 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-image {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.bio-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bio-info {
+    width: 60%;
+    padding: 1rem;
+}
+
+.leaders-name {
+    font-size: 3rem;
+    color: #2b3e50;
+    font-weight: 700;
+}
+
+.leaders-role {
+    font-size: 1.6rem;
+    color: #5688b5;
+    margin-top: 1rem;
+}
+
+.leaders-bio {
+    font-size: 1.2rem;
+    color: #4d5b66;
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .bio-container {
+        flex-direction: column;
+        padding: 2vh 5vw;
+    }
+
+    .bio-image {
+        width: 70%;
+        padding: 1rem;
+    }
+
+    .bio-info {
+        width: 100%;
+    }
+
+    .leaders-name {
+        font-size: 2rem;
+    }
+
+    .leaders-role {
+        font-size: 1.4rem;
+    }
+
+    .leaders-bio {
+        font-size: 1rem;
+    }
+}

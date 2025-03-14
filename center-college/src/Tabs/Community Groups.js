@@ -1,6 +1,11 @@
 import React from 'react';
 import '../StyleSheets/CommunityGroups.css';
-
+import GrantAndFouchy from '../Images/GrantAndFouchy.png';
+import SarahAndJackie from '../Images/SarahandJackie.png';
+import AshleyAndGracie from '../Images/AshleyAndGracie.png';
+import AdamaryAndAnikaAndPeyton from '../Images/AdamaryAndAnikaAndPeyton.png';
+import StokeyAndMicaiah from '../Images/StokeyAndMicaiah.png';
+import KaylynAndJulia from '../Images/KaylynAndJulia.png';
 const CommunityGroups = () => {
     const groups = [
         {
@@ -13,43 +18,43 @@ const CommunityGroups = () => {
         {
             name: "Group 2: 1st Year Guys ",
             leaders: ["Ethan Stokey and Micaiah Lee"],
-            image: "https://via.placeholder.com/150",
+            image: StokeyAndMicaiah,
             time: "Tuesdays at 8:00 PM",
             phone: "(512) 808-3603"
         },
         {
             name: "Group 3: 2nd and 3rd Year Guys",
             leaders: ["Grant Costello and Ethan Fouch"],
-            image: "https://via.placeholder.com/150",
+            image: GrantAndFouchy,
             time: "Mondays at 8:00 PM",
             phone: "(804) 629-3160"
         },
         {
             name: "Group 4: 2nd and 3rd Year Girls",
             leaders: ["Sarah Lambert and Jackie Harkins"],
-            image: "https://via.placeholder.com/150",
-            time: "Tuesdays at 8:00 PM?",
+            image: SarahAndJackie,
+            time: "Tuesdays at 8:00 PM",
             phone: "(804) 514-0139"
         },
         {
             name: "Group 5: 1st Year Girls",
             leaders: ["Adamary Maldonaldo, Anika Singh, and Peyton Gergen"],
-            image: "https://via.placeholder.com/150",
-            time: "Who Even Knows",
+            image: AdamaryAndAnikaAndPeyton,
+            time: "Mondays at 8:00 PM",
             phone: "(678) 927-3920"
         },
         {
             name: "Group 6: 1st Year Girls",
             leaders: ["Ashley Rommel and Gracie Williams"],
-            image: "https://via.placeholder.com/150",
-            time: "Tuesdays at 8:00 PM?",
+            image: AshleyAndGracie,
+            time: "Wednesdays at 8:00 PM",
             phone: "(301) 278-2443"
         },
         {
             name: "Group 7: 1st Year Girls",
             leaders: ["Kaylyn Johnson and Julia Stiltner"],
-            image: "https://via.placeholder.com/150",
-            time: "Who Even Knows",
+            image: KaylynAndJulia,
+            time: "Tuesdays at 7:15 PM",
             phone: "(434) 282-8606"
         }
     ];
@@ -61,7 +66,7 @@ const CommunityGroups = () => {
                 {groups.map((group, index) => (
                     <div key={index} className="group-card">
                         <div className="group-header">
-                            <img src={group.image} alt={group.name} className="leader-image" />
+                            <img src={group.image} alt={group.name} className="cg-leader-image" />
                             <div className="leaders">
                                 <h2>{group.name}</h2>
                                 <p>Leaders: {group.leaders.map((leader, idx) => (

@@ -1,11 +1,12 @@
 .leaders-container {
     padding: 6vh 2vh;
-    background-color: #ffffff;
     text-align: center;
+    height: 200vh;
+    background: linear-gradient(135deg, #ffffff, #71a8db);
 }
 
 .leaders-title {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     background: linear-gradient(135deg, #71a8db, #5688b5);
     -webkit-background-clip: text;
@@ -22,13 +23,18 @@
 
 .leader-card {
     background-color: #ffffff;
-    width: 30vh;
+    width: 31vh;
     padding: 2vh;
     border-radius: 2vh;
     box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-align: center;
     cursor: pointer;
+}
+
+.leader-card button{
+    background-color: #ffffff;
+    border: none;
 }
 
 .leader-card:hover {
@@ -68,6 +74,10 @@
 }
 
 @media (max-width: 768px) {
+
+    .leaders-container{
+        height: 750vh;
+    }
     .leader-name {
         font-size: 1.4rem;
     }
