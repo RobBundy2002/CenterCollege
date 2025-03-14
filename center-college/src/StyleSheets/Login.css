@@ -1,31 +1,29 @@
 .login-container {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 100px auto;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 60vh;
+    margin: 10vh auto;
+    padding: 3vh;
+    border-radius: 2vh;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
     background: linear-gradient(135deg, #71a8db, #5688b5);
-    color: white;
 }
 
 .login-container h2 {
     color: white;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     font-family: 'Roboto', sans-serif;
 }
 
 .login-container input {
-    margin: 12px 0;
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid #ddd;
+    margin: 1vh;
+    padding: 2vh;
+    font-size: 1.2rem;
+    border: .1vh solid #111111;
     border-radius: 8px;
-    outline: none;
     transition: all 0.3s ease;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -33,30 +31,31 @@
 .login-container input:focus {
     border-color: #71a8db;
     background-color: white;
-    box-shadow: 0 0 5px rgba(113, 168, 219, 0.5);
+    box-shadow: 0 0 1vh rgba(113, 168, 219, 0.5);
 }
 
 .login-container button {
-    padding: 12px;
-    font-size: 16px;
+    padding: 2vh;
+    font-size: 1.4rem;
     background-color: #71a8db;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 3vh;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 10px;
+    margin-top: 1vh;
 }
 
 .login-container button:hover {
     background-color: #5688b5;
-    transform: translateY(-2px);
+    transform: translateY(-.5vh);
 }
 
 .error {
     color: #ffffff;
-    font-size: 14px;
-    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1.2vh;
     text-align: center;
 }
 
@@ -74,36 +73,31 @@
 
 .popup-content {
     background-color: white;
-    padding: 40px;
-    border-radius: 15px;
+    padding: 4vh;
+    border-radius: 2vh;
     text-align: center;
-    width: 350px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 45vh;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
 }
 
 .popup-content p {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     color: #71a8db;
 }
 
 .popup-content button {
-    padding: 10px 20px;
+    padding: 1.5vh 8vh;
     background-color: #71a8db;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 2vh;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1.4rem;
     transition: all 0.3s ease;
-}
 
-.popup-content button:hover {
-    background-color: #5688b5;
-    transform: translateY(-2px);
 }
-
 @media (max-width: 768px) {
     .login-container {
         width: 90%;

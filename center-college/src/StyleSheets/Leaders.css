@@ -1,6 +1,6 @@
 .leaders-container {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
+    padding: 6vh 2vh;
+    background-color: #ffffff;
     text-align: center;
 }
 
@@ -10,30 +10,29 @@
     background: linear-gradient(135deg, #71a8db, #5688b5);
     -webkit-background-clip: text;
     color: transparent;
-    margin-bottom: 40px;
+    margin-bottom: 4vh;
 }
-
 
 .leaders-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 3vh;
 }
 
 .leader-card {
     background-color: #ffffff;
-    width: 250px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30vh;
+    padding: 2vh;
+    border-radius: 2vh;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-align: center;
     cursor: pointer;
 }
 
 .leader-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2vh);
 }
 
 .leader-image {
@@ -45,7 +44,7 @@
 }
 
 .leader-info {
-    padding: 10px;
+    padding: 1vh;
 }
 
 .leader-name {
@@ -56,47 +55,23 @@
 
 .leader-role {
     font-size: 1.2rem;
-    color: #666;
-    margin: 10px 0;
+    color: #111111;
+    margin: 1vh;
+    line-height: 2.4;
 }
 
 .leader-description {
     font-size: 1rem;
-    color: #777;
-    margin-top: 10px;
+    color: #444444;
+    margin-top: 1vh;
     line-height: 1.4;
 }
 
 @media (max-width: 768px) {
-    .leader-card {
-        width: 220px;
-        padding: 15px;
-    }
-
     .leader-name {
         font-size: 1.4rem;
     }
-
     .leader-role {
         font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .leaders-title {
-        font-size: 2rem;
-    }
-
-    .leader-card {
-        width: 180px;
-        padding: 10px;
-    }
-
-    .leader-name {
-        font-size: 1.2rem;
-    }
-
-    .leader-role {
-        font-size: 0.9rem;
     }
 }

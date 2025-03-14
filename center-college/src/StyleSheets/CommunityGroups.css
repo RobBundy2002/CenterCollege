@@ -1,9 +1,9 @@
 .community-groups-container {
-    padding: 30px 20px;
+    padding: 2vh 4vh;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f9fc;
-    color: #333;
-    min-height: 100vh;
+    background: linear-gradient(135deg, #ffffff, #71a8db);
+    min-height: 200vh;
+    margin-bottom: 2vh;
 }
 
 h1 {
@@ -17,68 +17,65 @@ h1 {
 }
 
 .community-group-description {
-    margin-bottom: 30px;
     background-color: #ffffff;
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 2vh;
     text-align: center;
 }
 
 .community-group-description h2 {
     color: #71a8db;
     font-size: 2.4rem;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     font-weight: 600;
 }
 
 .community-group-description p {
     font-size: 1.2rem;
-    color: #555;
+    color: #000000;
     line-height: 1.5;
 }
 
 .group-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 3vh;
     margin-top: 40px;
 }
 
 .group-card {
     background-color: #ffffff;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 2vh;
+    padding: 2vh;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    border: 2px solid #f1f1f1;
+    border: 1vh solid #f1f1f1;
+    margin-bottom: 2vh;
 }
 
 .group-card:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3vh);
+    box-shadow: 0 1vh 3vh rgba(0, 0, 0, 0.1);
 }
 
 .group-header {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+    border-bottom:  .2vh solid #000000;
 }
 
 .leader-image {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-right: 20px;
     object-fit: cover;
 }
 
 .leaders h2 {
     font-size: 1.6rem;
-    color: #333;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -87,30 +84,20 @@ h1 {
     color: #888;
 }
 
-.group-details {
-    margin-top: 15px;
-}
-
 .group-details p {
     font-size: 1.1rem;
-    color: #555;
-}
-
-.group-details strong {
-    color: #333;
-    font-weight: 600;
+    color: #111111;
 }
 
 @media (max-width: 768px) {
     .community-groups-container {
-        padding: 20px 10px;
+        padding: 2vh 1vh;
     }
-
-    .group-card {
-        max-width: 100%;
-    }
-
     h1 {
         font-size: 2.5rem;
+    }
+    .footer {
+        bottom: -682vh;
+        width: 100%;
     }
 }

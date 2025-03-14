@@ -2,7 +2,7 @@
   max-width: 100vh;
   height: 80vh;
   margin: 0 auto;
-  border: 1px solid #fff;
+  border: 1vh solid #fff;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -12,7 +12,7 @@
   height: 99.5%;
   border: .1rem solid #71a8db;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
 }
 
 
