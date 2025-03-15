@@ -89,19 +89,33 @@ h1 {
     color: #111111;
 }
 
-.footer{
-    bottom: -150vh;
+.cg-back-button{
+    bottom: 40vh;
+    left: 39.5vh;
+    width: 30%;
+}
+
+.footer-container-cg footer{
+    bottom: -158vh;
+    left: -.01vw;
 }
 
 @media (max-width: 768px) {
     .community-groups-container {
         padding: 2vh 1vh;
+        height: 840vh;
     }
     h1 {
         font-size: 2.5rem;
     }
-    .footer {
-        bottom: -752vh;
-        width: 100%;
+    .cg-back-button{
+        margin-bottom: 20vh;
+        left: 16vh;
+        width: 32.5%;
+    }
+
+    .footer-container-cg footer{
+        bottom: -768vh;
+        left: -.01vw;
     }
 }

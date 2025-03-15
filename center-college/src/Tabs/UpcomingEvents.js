@@ -1,5 +1,7 @@
 import React from "react";
 import '../StyleSheets/UpcomingEvents.css';
+import Footer from "../Miscellaneous/Footer";
+import BackButton from "../Miscellaneous/BackButton";
 
 class UpcomingEvents extends React.Component {
     render() {
@@ -14,8 +16,13 @@ class UpcomingEvents extends React.Component {
                         ></iframe>
                     </div>
                 </div>
+                <BackButton customClass="ue-back-button"/>
+                <div className="footer-container-ue">
+                    <Footer/>
+                </div>
             </div>
         );
     }
 }
+
 export default UpcomingEvents;

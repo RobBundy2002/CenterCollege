@@ -6,6 +6,8 @@ import AshleyAndGracie from '../Images/AshleyAndGracie.png';
 import AdamaryAndAnikaAndPeyton from '../Images/AdamaryAndAnikaAndPeyton.png';
 import StokeyAndMicaiah from '../Images/StokeyAndMicaiah.png';
 import KaylynAndJulia from '../Images/KaylynAndJulia.png';
+import BackButton from "../Miscellaneous/BackButton";
+import Footer from "../Miscellaneous/Footer";
 const CommunityGroups = () => {
     const groups = [
         {
@@ -66,7 +68,7 @@ const CommunityGroups = () => {
                 {groups.map((group, index) => (
                     <div key={index} className="group-card">
                         <div className="group-header">
-                            <img src={group.image} alt={group.name} className="cg-leader-image" />
+                            <img src={group.image} alt={group.name} className="cg-leader-image"/>
                             <div className="leaders">
                                 <h2>{group.name}</h2>
                                 <p>Leaders: {group.leaders.map((leader, idx) => (
@@ -83,11 +85,16 @@ const CommunityGroups = () => {
                     </div>
                 ))}
             </div>
+            <BackButton customClass="cg-back-button"/>
             <div className="community-group-description">
                 <h2>What is a Community Group?</h2>
                 <p>
-                    Community groups are small, informal gatherings of people where you can grow together, study, pray, and support one another.
+                    Community groups are small, informal gatherings of people where you can grow together, study, pray,
+                    and support one another.
                 </p>
+            </div>
+            <div className="footer-container-cg">
+                <Footer/>
             </div>
         </div>
     );

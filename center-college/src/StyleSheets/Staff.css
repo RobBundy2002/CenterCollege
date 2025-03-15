@@ -5,7 +5,6 @@
     padding: 5vh 10vw;
     gap: 5vw;
     background-color: #f4f9fc;
-    margin: 2rem 0;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -55,6 +54,10 @@
     .bio-container {
         flex-direction: column;
         padding: 2vh 5vw;
+    }
+
+    .leaders-container {
+        height: 395vh;
     }
 
     .bio-image {

@@ -6,6 +6,8 @@ import erinImage from '../Images/Erin Image.png';
 import keatonImage from '../Images/Keaton Image.png';
 import mikeImage from '../Images/Mike Image.png';
 import livImage from '../Images/Liv Image.png';
+import Footer from "../Miscellaneous/Footer";
+import BackButton from "../Miscellaneous/BackButton";
 
 const Leaders = () => {
     const navigate = useNavigate();
@@ -101,6 +103,10 @@ const Leaders = () => {
                         </div>
                     </button>
                 </div>
+            </div>
+            <BackButton customClass="l-back-button"/>
+            <div className="footer-container-l">
+                <Footer/>
             </div>
         </div>
     );

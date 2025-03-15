@@ -2,7 +2,6 @@ import './StyleSheets/App.css';
 import React from "react";
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import ScrollToTop from "./Miscellaneous/ScrollToTop";
-import Footer from "./Miscellaneous/Footer";
 import Home from "./Tabs/Home";
 import CommunityGroups from "./Tabs/Community Groups";
 import UpcomingEvents from "./Tabs/UpcomingEvents";
@@ -29,7 +28,6 @@ function App() {
                 <Route path="/mike" element={<Mike/>} />
                 <Route path="/liv" element={<Liv/>} />
             </Routes>
-            <Footer />
         </HashRouter>
     );
 }

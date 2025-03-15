@@ -73,6 +73,16 @@
     line-height: 1.4;
 }
 
+.footer-container-l footer{
+    bottom: -110vh;
+    left: -.01vw;
+}
+.l-back-button{
+    bottom: 40vh;
+    left: 39.5vh;
+    width: 30%;
+}
+
 @media (max-width: 768px) {
 
     .leaders-container{
@@ -83,5 +93,9 @@
     }
     .leader-role {
         font-size: 1rem;
+    }
+    .footer-container-l footer{
+        bottom: -318vh;
+        left: -.01vw;
     }
 }

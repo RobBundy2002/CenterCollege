@@ -11,7 +11,7 @@ body{
 }
 
 .home-container{
-    height: 200vh;
+    height:235vh;
     background: linear-gradient(135deg, #ffffff, #71a8db);
 }
 
@@ -93,6 +93,9 @@ body{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.footer-container-home footer{
+    bottom: -140vh;
+}
 
 @media (max-width: 768px) {
     .background-image {
@@ -113,6 +116,6 @@ body{
         width: 95%;
     }
     .home-container{
-        height:745vh;
+        height: 220vh;
     }
 }
