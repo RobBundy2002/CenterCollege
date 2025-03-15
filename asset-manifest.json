@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CenterCollege/static/css/main.9d9debba.css",
-    "main.js": "/CenterCollege/static/js/main.a58363e8.js",
+    "main.js": "/CenterCollege/static/js/main.3d816a6d.js",
     "static/media/KaylynAndJulia.png": "/CenterCollege/static/media/KaylynAndJulia.46b62f6f4ddcd2860318.png",
     "static/media/StokeyAndMicaiah.png": "/CenterCollege/static/media/StokeyAndMicaiah.9707d3b9c87a6a9028f7.png",
     "static/media/SarahandJackie.png": "/CenterCollege/static/media/SarahandJackie.f3f9e4e45f7dafd09b30.png",
@@ -17,10 +17,10 @@
     "static/media/Logo.png": "/CenterCollege/static/media/Logo.f4773545fa55add4024d.png",
     "index.html": "/CenterCollege/index.html",
     "main.9d9debba.css.map": "/CenterCollege/static/css/main.9d9debba.css.map",
-    "main.a58363e8.js.map": "/CenterCollege/static/js/main.a58363e8.js.map"
+    "main.3d816a6d.js.map": "/CenterCollege/static/js/main.3d816a6d.js.map"
   },
   "entrypoints": [
     "static/css/main.9d9debba.css",
-    "static/js/main.a58363e8.js"
+    "static/js/main.3d816a6d.js"
   ]
 }
