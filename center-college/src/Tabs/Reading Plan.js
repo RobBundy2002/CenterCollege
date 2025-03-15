@@ -17,7 +17,7 @@ const ReadingPlan = () => {
         { date: "2025-03-08", book: "Exodus", chapter: "3", description: "Exodus Day 3" },
     ];
 
-    const [completed, setCompleted] = useState([]);
+    const [completed] = useState([]);
 
     const handleMilestoneClick = (book, chapter) => {
         const link = `https://www.esv.org/${book}+${chapter}/`;
