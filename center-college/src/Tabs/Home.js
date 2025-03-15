@@ -4,6 +4,7 @@ import '../StyleSheets/Home.css';
 import logoImage from './Logo.png';
 import { useNavigate } from 'react-router-dom';
 import Footer from "../Miscellaneous/Footer";
+import Carousel from "../Miscellaneous/Carousel";
 
 const Home = () => {
     const [showLogin, setShowLogin] = useState(false);
@@ -48,6 +49,7 @@ const Home = () => {
             </div>
 
             {showLogin && <Login/>}
+            <Carousel />
             <div className="footer-container-home">
                 <Footer/>
                 </div>
