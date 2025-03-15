@@ -1,0 +1,104 @@
+.background-container {
+    padding: 6vh 2vh;
+    height: 140vh;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(135deg, #ffffff, #71a8db);
+}
+
+.reading-plan-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 6vh 2vh;
+}
+
+.footer-container-rp footer{
+    bottom: -50vh;
+    left: -.01vw;
+}
+
+h1 {
+    background: linear-gradient(135deg, #71a8db, #5688b5);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+
+.reading-plan {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3vh;
+    margin-top: 40px;
+}
+
+.reading-plan-card {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    border-radius: 1.5vh;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.reading-plan-card:hover {
+    background-color: #71a8db;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.reading-plan-card.completed {
+    background-color: #4caf50;
+    color: white;
+}
+
+.reading-plan-card span {
+    font-weight: bold;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #71a8db;
+    z-index: -1;
+}
+
+.rp-back-button {
+    bottom: 60vh;
+    left: 39.5vh;
+    width: 30%;
+}
+
+
+@media (max-width: 768px) {
+    .rp-back-button {
+        bottom: 60vh;
+        left: 15vh;
+        width: 33%;
+    }
+    .reading-plan{
+        margin-left: -14vw;
+    }
+
+    .reading-plan-container h1{
+        font-size: 2.5rem;
+    }
+
+    .background-container{
+        height: 240vh;
+    }
+
+    .footer-container-rp footer {
+        bottom: -160vh;
+        left: -.01vw;
+    }
+}
+

@@ -11,6 +11,7 @@ import Mike from "./Staff Pages/Mike";
 import Erin from "./Staff Pages/Erin";
 import Keaton from "./Staff Pages/Keaton";
 import Liv from "./Staff Pages/Liv";
+import ReadingPlan from "./Tabs/Reading Plan";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/community-group" element={<CommunityGroups />} />
                 <Route path="/upcoming-events" element={<UpcomingEvents />} />
+                <Route path="/reading-plan" element={<ReadingPlan />} />
                 <Route path="/leaders" element={<Leaders />} />
                 <Route path="/jose" element={<Jose/>} />
                 <Route path="/erin" element={<Erin/>} />
