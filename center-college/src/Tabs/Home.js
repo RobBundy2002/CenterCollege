@@ -39,7 +39,7 @@ const Home = () => {
                         <button className="nav-button" onClick={() => handleNavigation('/reading-plan')}>Reading Plan
                         </button>
                         <button className="nav-button" onClick={() => handleNavigation('/community-group')}>Community
-                            Group
+                            Groups
                         </button>
                         <button className="nav-button" onClick={() => handleNavigation('/about')}>About Us</button>
                         <button className="nav-button" onClick={() => handleNavigation('/leaders')}>Staff Team</button>
