@@ -1,4 +1,4 @@
-.background-container {
+.back-container {
     padding: 6vh 2vh;
     height: 140vh;
     width: 100%;
@@ -92,7 +92,7 @@ h1 {
         font-size: 2.5rem;
     }
 
-    .background-container{
+    .back-container{
         height: 240vh;
     }
 

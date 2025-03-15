@@ -26,7 +26,7 @@ const ReadingPlan = () => {
 
 
     return (
-        <div className="background-container">
+        <div className="back-container">
             <div className="reading-plan-container">
                 <h1>Reading Plan</h1>
                 <div className="reading-plan">

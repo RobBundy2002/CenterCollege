@@ -51,4 +51,10 @@ h2 {
   .background-container{
     height: 175vh;
   }
+
+  .ue-back-button{
+    bottom: 40vh;
+    left: 15vh;
+    width: 33%;
+  }
 }

@@ -86,7 +86,7 @@
 @media (max-width: 768px) {
 
     .leaders-container{
-        height: 750vh;
+        height: 405vh;
     }
     .leader-name {
         font-size: 1.4rem;
@@ -95,7 +95,12 @@
         font-size: 1rem;
     }
     .footer-container-l footer{
-        bottom: -318vh;
+        bottom: -338vh;
         left: -.01vw;
+    }
+    .l-back-button{
+        left: 15vh;
+        z-index:1000;
+        width: 33%;
     }
 }

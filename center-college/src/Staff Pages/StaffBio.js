@@ -1,5 +1,6 @@
 import React from 'react';
 import '../StyleSheets/Staff.css';
+import BackButton from "../Miscellaneous/BackButton";
 
 const StaffBio = ({ name, role, image, bio }) => {
     return (
